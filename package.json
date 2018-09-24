@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/coafer/trilogy-page/issues"
   },
-  "homepage": "https://github.com/coafer/trilogy-page#readme"
+  "homepage": "https://github.com/coafer/trilogy-page#readme",
+  "dependencies": {
+    "bootstrap": "^4.1.3"
+  }
 }
