@@ -1,11 +1,13 @@
-*, *::before, *::after{
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
 }
 
-html{
-    font-size: 62.5%;
+html {
+  font-size: 62.5%;
 }
 
 .body {
@@ -13,16 +15,17 @@ html{
 }
 
 .nav_section {
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    right: 0px;
-    height: 115px;
-    background-color: rgba(0, 0, 0, .75);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  height: 115px;
+  background-color: rgba(0, 0, 0, 0.75);
 }
 
-.nav_section .container, .row{
-    height: 100%;
+.nav_section .container,
+.row {
+  height: 100%;
 }
 
 .logo_img {
@@ -30,7 +33,7 @@ html{
 }
 
 .phone_nav {
-  font-family: 'Roboto Slab', sans-serif;
+  font-family: "Roboto Slab", sans-serif;
   color: #fff;
   font-size: 18px;
   line-height: 22px;
@@ -50,7 +53,7 @@ html{
     display: block;
     height: auto;
     padding-top: 178px;
-    background-image: url('../images/data_mobile_hero.jpg');
+    background-image: url("../images/data_mobile_hero.jpg");
   }
   .col_hero_left {
     display: block;
@@ -96,8 +99,18 @@ html{
     padding-top: 0px;
   }
   .featuring_sect {
-    background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .25), rgba(0, 0, 0, .25)), url('../images/featuring_mobile.jpg');
-    background-image: linear-gradient(180deg, rgba(0, 0, 0, .25), rgba(0, 0, 0, .25)), url('../images/featuring_mobile.jpg');
+    background-image: -webkit-linear-gradient(
+        270deg,
+        rgba(0, 0, 0, 0.25),
+        rgba(0, 0, 0, 0.25)
+      ),
+      url("../images/featuring_mobile.jpg");
+    background-image: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.25),
+        rgba(0, 0, 0, 0.25)
+      ),
+      url("../images/featuring_mobile.jpg");
     background-position: 0px 0px, 50% 50%;
     background-size: auto, cover;
     background-repeat: repeat, no-repeat;
@@ -130,7 +143,7 @@ html{
     flex: 0 0 auto;
   }
   .story_sect {
-    background-image: url('../images/about_mobile.jpg');
+    background-image: url("../images/about_mobile.jpg");
   }
   .story_p {
     font-weight: 100;
@@ -204,8 +217,8 @@ html{
 }
 
 @font-face {
-  font-family: 'Font awesome 5 free solid 900';
-  src: url('../fonts/Font-Awesome-5-Free-Solid-900.otf') format('opentype');
+  font-family: "Font awesome 5 free solid 900";
+  src: url("../fonts/Font-Awesome-5-Free-Solid-900.otf") format("opentype");
   font-weight: 400;
   font-style: normal;
 }
