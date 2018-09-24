@@ -437,17 +437,19 @@ input.w-button {
   font-size: 18px;
   line-height: 24px;
   font-weight: 300;
+  display: block;
+  margin-bottom: 10px;
 }
 
-.arrow {
-  -webkit-transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0deg)
-    rotateY(0deg) rotateZ(0deg) skew(0, 0);
-  -moz-transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0deg)
-    rotateY(0deg) rotateZ(0deg) skew(0, 0);
-  -ms-transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0deg)
-    rotateY(0deg) rotateZ(0deg) skew(0, 0);
-  transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg)
-    rotateZ(0deg) skew(0, 0);
+.faq_list_text {
+  font-family: "Roboto Slab", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.answer_list {
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .footer {
@@ -494,11 +496,22 @@ input.w-button {
   font-family: "Font awesome 5 free solid 900", sans-serif;
 }
 
-.angle-right.faq {
-  top: 4px;
-  padding-right: 8px;
+.fa-angle-down {
+  padding: 0.4rem 0.8rem;
   border-style: none;
+  display: block;
+  border-radius: 4rem;
   background-color: #38bcdb;
+  position: absolute;
+  left: -5px;
+}
+
+.something-else .fa {
+  transition: 0.3s transform ease-in-out;
+  color: #2e91a3;
+}
+.something-else .collapsed .fa {
+  transform: rotate(-90deg);
   color: #000;
 }
 
